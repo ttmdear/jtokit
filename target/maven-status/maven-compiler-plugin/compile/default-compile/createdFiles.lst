@@ -16,8 +16,10 @@ com\jtokit\util\TimerUtil.class
 com\jtokit\time\RealTimeProvider.class
 com\jtokit\util\LazyGet.class
 com\jtokit\util\SortUtil.class
+com\jtokit\environment\EnvironmentNames.class
 com\jtokit\util\Labelable.class
 com\jtokit\time\TimeProvider.class
+com\jtokit\environment\EnvironmentName.class
 com\jtokit\collections\IdentifiableLong.class
 com\jtokit\util\StringUtil.class
 com\jtokit\collections\ListUtil.class
