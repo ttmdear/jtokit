@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="jtokit" target="17" />
+      <module name="jtokit" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
