@@ -14,7 +14,7 @@ public class Result {
     protected String message = "";
 
     @Nonnull
-    protected Errors errors = new Errors();
+    protected Error error = new Error();
 
     public static Result of(Status status) {
         Result result = new Result();
@@ -29,17 +29,17 @@ public class Result {
         return result;
     }
 
-    public static Result of(Status status, Errors errors) {
+    public static Result of(Status status, Error error) {
         Result result = new Result();
         result.status = status;
-        result.errors = errors;
+        result.error = error;
         return result;
     }
 
-    public static Result error(Errors errors) {
+    public static Result error(Error error) {
         Result result = new Result();
         result.status = Status.ERROR;
-        result.errors = errors;
+        result.error = error;
         return result;
     }
 
@@ -87,8 +87,8 @@ public class Result {
     }
 
     @Nonnull
-    public Errors getErrors() {
-        return errors;
+    public Error getError() {
+        return error;
     }
 
     public void throwActionException() {
