@@ -13,6 +13,7 @@ com\jtokit\collections\Identifiable.class
 com\jtokit\counter\Counter.class
 com\jtokit\util\ExtractUtil.class
 com\jtokit\util\TimerUtil.class
+com\jtokit\http\HeaderUtil.class
 com\jtokit\time\RealTimeProvider.class
 com\jtokit\util\LazyGet.class
 com\jtokit\util\SortUtil.class
