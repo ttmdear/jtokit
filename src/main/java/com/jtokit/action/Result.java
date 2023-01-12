@@ -56,6 +56,19 @@ public class Result {
         return result;
     }
 
+    public static Result error() {
+        Result result = new Result();
+        result.status = Status.ERROR;
+        return result;
+    }
+
+    public static Result error(String message) {
+        Result result = new Result();
+        result.status = Status.ERROR;
+        result.message = message;
+        return result;
+    }
+
     public static <R extends Result, V> V handleResult(R result, Function<R, V> function) {
         if (result.isSuccess()) {
             return function.apply(result);
