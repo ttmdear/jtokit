@@ -1,4 +1,4 @@
-package com.jtokit.util;
+package com.jtokit.lang;
 
 import java.util.ArrayList;
 import java.util.List;
