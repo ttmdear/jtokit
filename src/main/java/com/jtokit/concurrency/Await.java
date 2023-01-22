@@ -19,6 +19,7 @@ public class Await {
         }
 
         public A getResponseA() {
+            await();
             return responseA;
         }
 
