@@ -1,5 +1,6 @@
 com/jtokit/counter/Counter.class
 com/jtokit/util/SortUtil.class
+com/jtokit/concurrency/Await$AwaitA.class
 com/jtokit/action/Result.class
 com/jtokit/util/TimeUtil.class
 com/jtokit/collections/MapUtil.class
@@ -26,6 +27,7 @@ com/jtokit/util/TransformUtil.class
 com/jtokit/util/TimerUtil.class
 com/jtokit/App.class
 com/jtokit/action/Status.class
+com/jtokit/time/TimeUtil.class
 com/jtokit/collections/IdentifiableInteger.class
 com/jtokit/time/Time.class
 com/jtokit/validation/NotEmptyValidator.class
@@ -34,3 +36,4 @@ com/jtokit/util/ThreadUtil.class
 com/jtokit/util/TimerUtil$CountdownState.class
 com/jtokit/collections/ListUtil.class
 com/jtokit/time/TimeProvider.class
+com/jtokit/concurrency/Await.class
