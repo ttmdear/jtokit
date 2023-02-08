@@ -1,5 +1,7 @@
 package com.jtokit.action;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.function.Function;
@@ -77,6 +79,7 @@ public class Result {
         }
     }
 
+    @JsonIgnore
     public boolean isSuccess() {
         return Status.SUCCESS.equals(status);
     }

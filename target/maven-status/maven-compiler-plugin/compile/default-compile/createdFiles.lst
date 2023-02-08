@@ -7,6 +7,7 @@ com\jtokit\util\TransformUtil.class
 com\jtokit\lang\NullUtil.class
 com\jtokit\util\CompareUtil.class
 com\jtokit\action\Status.class
+com\jtokit\util\EnumUtil.class
 com\jtokit\util\TimerUtil$CountdownState.class
 com\jtokit\action\Result.class
 com\jtokit\action\Error.class
